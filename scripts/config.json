@@ -83,7 +83,16 @@
         "version": "4",
         "cron": "0 15 10 ? * * ",
         "scope": "com.sankuai.meituan"
-    },{
+    },
+    
+        {
+        "name": "美团新版",
+        "file": "meituanV3",
+        "version": "4",
+        "cron": "0 15 10 ? * * ",
+        "scope": "com.sankuai.meituan"
+    },
+    {
         "name": "渤海宣传员",
         "file": "bhxcy",
         "version": "1",
