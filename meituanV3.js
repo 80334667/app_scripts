@@ -12,7 +12,7 @@ export meituanCookie="AgGZIgsYHyxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 cron: 31 2,7,11,17,21 * * *
 const $ = new Env("美团");
 */
-process.env.meituanCookie = process.env.APP_COOKIE.match(/token=(.*?);/)[0]
+process.env.meituanCookie = process.env.APP_COOKIE
 process.env.meituanNotify = 0
 
 console.log(process.env.meituanCookie)
